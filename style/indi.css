@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1D2951;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px; /* 根据需要调整logo的高度 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #cccccc;
+}
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.breadcrumb a {
+    color: #1D2951;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+.split {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-desc {
+    flex: 1;
+    padding: 10px;
+}
+
+.image-desc img {
+    width: 100%; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1D2951;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 50px;  /* Adjust as needed */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content div {
+    margin-left: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #1D2951;
+}
